@@ -12,3 +12,7 @@ Then run 'sudo ./Deb-Creator.sh'.
 Place path of dylib file and select version you want to.
 Then select whether to make deb for rootfull or rootless environment.
 After done creating deb. you can locate the deb in /var/mobile in root.
+
+# Important
+Make sure dpkg and bash is installed.
+Also, you can change the Maintainer name in the code of deb creator sh file.
