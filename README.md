@@ -26,4 +26,4 @@ PS: if file is not executing in macos terminal even with the above commands, the
 # Important
 Make sure dpkg and bash is installed.
 If not, you can install it from your package manager or "brew install dpkg" if using macOS.
-Also, you can change the Maintainer name in the code of deb creator sh file.
+Also, you can change the Maintainer name in the code of sh file.
