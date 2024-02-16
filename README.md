@@ -16,7 +16,7 @@ For macOS:
 
 1) Place the file in any desired location with proper access to it.
 2) Open Terminal, cd to the folder where you saved the file and give permission to the file using this cmd "chmod +x /path/to/mDebCreator.sh".
-3) Then type, "sudo ./iDebCreator.sh".
+3) Then type, "sudo ./mDebCreator.sh".
 4) Created deb by script will be saved in
 User Desktop.
 
