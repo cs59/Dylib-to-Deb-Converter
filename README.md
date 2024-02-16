@@ -11,7 +11,9 @@ Open any Terminal and cd to the folder where you saved the file.
 Then run 'sudo ./Deb-Creator.sh'.
 Place path of dylib file and select version you want to.
 Then select whether to make deb for rootfull or rootless environment.
-After done creating deb. you can locate the deb in /var/mobile in root.
+After done creating deb. you can locate the deb in /var/mobile in root or in Desktop if using macOS.
+
+PS: if file is not executing in macos terminal even with the above commands, then type "sudo drag&drop.shFile" then click Enter.
 
 # Important
 Make sure dpkg and bash is installed.
