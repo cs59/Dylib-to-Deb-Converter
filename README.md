@@ -5,15 +5,23 @@ A script meant to run in iOS to convert .dylib file to .deb with the support for
 macOS or Jailbroken IOS with Terminal access.
 
 # Usage
-Place the Deb-Creator.sh file into any location using filza or any file manager.
-(If script having some permission issues, then run 'chmod +x path/to/deb-creator.sh'.
-Open any Terminal and cd to the folder where you saved the file.
-Then run 'sudo ./Deb-Creator.sh'.
-Place path of dylib file and select version you want to.
-Then select whether to make deb for rootfull or rootless environment.
-After done creating deb. you can locate the deb in /var/mobile in root or in Desktop if using macOS.
+For iOS:
 
-PS: if file is not executing in macos terminal even with the above commands, then type "sudo drag&drop.shFile" then click Enter.
+1) Place the file in any desired location with proper access to it using File Manager like Filza.
+2) Open Terminal, cd to the folder where you saved the file and give permission to the file using this cmd "chmod +x /path/to/iDebCreator.sh".
+3) Then type, "sudo ./iDebCreator.sh".
+4) Created deb by script will be saved in "/var/mobile".
+
+For macOS:
+
+1) Place the file in any desired location with proper access to it.
+2) Open Terminal, cd to the folder where you saved the file and give permission to the file using this cmd "chmod +x /path/to/mDebCreator.sh".
+3) Then type, "sudo ./iDebCreator.sh".
+4) Created deb by script will be saved in
+User Desktop.
+
+
+PS: if file is not executing in macos terminal even with the above commands, then type "sudo drag&drop/mDebCreator.sh" then click Enter.
 
 # Important
 Make sure dpkg and bash is installed.
